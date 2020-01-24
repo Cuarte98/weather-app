@@ -1,0 +1,28 @@
+import React from "react";
+import { Flex, Button } from "@chakra-ui/core";
+
+interface Props {
+  cities: { name: string; id: number }[];
+  callback: (id: number) => void;
+}
+
+const CitySelector: React.FC<Props> = ({ cities, callback }) => {
+  return (
+    <Flex flexDirection="column" h="300px" justifyContent="space-around" mx={4}>
+      {cities.map((item) => {
+        return (
+          <Button
+            variantColor="teal"
+            size="md"
+            key={item.name}
+            onClick={() => callback(item.id)}
+          >
+            {item.name}
+          </Button>
+        );
+      })}
+    </Flex>
+  );
+};
+
+export default CitySelector;
