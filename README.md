@@ -26,7 +26,7 @@ El usuario puede cambiar entre 6 ciudades preseleccionadas y verlas una a la vez
 
 ## Elementos que considero faltantes pero no necesarios para retrasar la entrega
 
-<strong>Unit Testing:</strong> No me encontré con tiempo suficiente para hacer unit testing sobre la App. Voy a intentar agregarlo en un commit aparte.
+~~<strong>Unit Testing:</strong> No me encontré con tiempo suficiente para hacer unit testing sobre la App. Voy a intentar agregarlo en un commit aparte.~~ Resuelto: 14/10/2020
 
 <strong>Selección de ciudades:</strong> Permitir al usuario elegir las 5 ciudades consumiendo datos de alguna API.
 
