@@ -27,6 +27,7 @@ const Forecast: React.FC<Props> = ({ weatherByDay }) => {
           p={2}
           w="100px"
           shadow="md"
+          data-testid={`forecast-${item.day}`}
         >
           <WeatherIcon status={item.weather} />
           <Box> {item.temp}</Box>
